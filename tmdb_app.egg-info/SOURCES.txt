@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tmdb_app/__init__.py
+tmdb_app/api.py
+tmdb_app/cli.py
+tmdb_app/main.py
+tmdb_app.egg-info/PKG-INFO
+tmdb_app.egg-info/SOURCES.txt
+tmdb_app.egg-info/dependency_links.txt
+tmdb_app.egg-info/entry_points.txt
+tmdb_app.egg-info/requires.txt
+tmdb_app.egg-info/top_level.txt

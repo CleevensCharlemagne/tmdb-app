@@ -5,4 +5,6 @@ def fetch_movie(categorie):
     url = f'https://api.themoviedb.org/3/movie/{categorie}?api_key={api_key}'
 
     response = requests.get(url)
+    response.raise_for_status()
+
     return response.json()

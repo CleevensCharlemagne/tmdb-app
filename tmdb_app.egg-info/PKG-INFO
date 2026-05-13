@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: tmdb-app
+Version: 0.1.0
+Summary: A CLI app for fetching movies from TMDB
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# tmdb-app
