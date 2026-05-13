@@ -2,6 +2,7 @@
 
 A simple Python command-line application that fetches movie data from the TMDB API.
 
+🔗 **Project URL:** [https://roadmap.sh/projects/tmdb-cli](https://roadmap.sh/projects/tmdb-cli)
 ## Features
 
 - Fetch popular movies
