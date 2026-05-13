@@ -1,7 +1,8 @@
 import requests
+import os
 
 def fetch_movie(categorie):
-    api_key = '8190b66afc8c8d44a678007b06d5925b'
+    api_key = os.getenv("TMDB_API_KEY")
     url = f'https://api.themoviedb.org/3/movie/{categorie}?api_key={api_key}'
 
     response = requests.get(url)
